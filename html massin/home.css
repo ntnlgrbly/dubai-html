@@ -1,0 +1,241 @@
+ body{
+   height: 750px;
+   background:rgb(255, 255, 255);
+  
+   font-family: sans-serif;
+ }
+
+ .slider{
+
+  padding: 0;
+  background: rgb(0, 0, 0);
+}
+
+ /*.class{
+  background: rgb(83, 138, 185);
+}*/
+.slider .carousel-item{
+  /*גודל של הקרוסלה */
+  min-height: 550px;
+  background-size:cover;
+  background-position: center;
+  font-family: fangsong;
+}
+
+h5{
+  color: #d31919a8;
+  
+}
+main{
+  margin: 0;
+  padding: 0;
+}
+.grid{
+  display: grid;
+  grid-template-columns:19% 60% 19% ;
+  grid-template-rows: 555px;
+  row-gap: 2px;
+justify-content: space-around;
+margin-top: 5px;
+}
+#box-center{
+  background-image:url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fen.vogue.me%2Fwp-content%2Fuploads%2F2020%2F11%2Fflag-promo.jpg&imgrefurl=https%3A%2F%2Fen.vogue.me%2Fculture%2Feverything-need-know-uae-flag-day%2F&tbnid=oLux_zANYNFAmM&vet=12ahUKEwiIu87bjen5AhVEaBoKHVK0DtMQMygPegUIARDbAQ..i&docid=hQPIee1Op1sGbM&w=1000&h=750&q=Flag%20of%20Dubai&ved=2ahUKEwiIu87bjen5AhVEaBoKHVK0DtMQMygPegUIARDbAQ") ;
+  background-size:cover;
+  background-position: center;
+  flex-direction: column-reverse;
+  text-align: center;
+  padding: 8px;
+}
+#box-center p{
+  color: #A31925;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 19px;
+/* color: #A0A0A0; */
+}
+
+main h1{
+  font-family: revert;
+  color: #A31925;
+  background: #A31925;
+  text-shadow: 1px 1px 0 #000000;
+  
+}
+img{
+  border-radius: 25px 25px;
+}
+#box-card{
+  background:linear-gradient(rgb(212, 79, 79),rgb(127, 113, 110));
+  border-radius: 25px 25px;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #ababab;
+}
+h3{
+  color: #A31925;
+  text-shadow: 2px 2px 5px red;
+text-align: center;
+}
+main h2{
+  height: 20px;
+  /*העיצוב של הכותרות של שתי הבוקסים*/
+  font-family: 'Stick No Bills', sans-serif;
+  color: #ee1e1ead;
+
+}
+
+p{
+  font: 1.2em "Fira Sans", sans-serif;
+  margin-top: 3px;
+}
+
+main .banner{
+border-radius: 8px;
+background: linear-gradient(87deg, rgb(255, 255, 255) 4%, rgba(252,252,252,1) 97%);
+}
+
+main .banner img{
+  color: rgb(255, 0, 0);
+  margin-top: -36px;
+  border-radius: 15px; 
+ 
+}
+
+.imgAll{
+  filter: grayscale(40%);
+}
+.imgAll:hover{
+  filter: grayscale(0%);
+  transition: 200ms;
+}
+/*  השתי בוקסים בצדדים*/
+main .about .box h2{
+
+  font-family: 'Stick No Bills', sans-serif;
+  text-align: center;
+  color: rgb(253, 0, 0);
+  text-shadow: 0px 1px 0 #f50202;
+}
+main h1{
+  color: rgb(233, 227, 227);
+}
+.links{
+  height: 520px;
+  background-image:url("images/image.jpg");
+  background-size:cover;
+  background-position: center ;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  /* grid-template-rows: 20% 20%; */
+
+  justify-content: space-between;
+}
+.links .parent{
+  margin-top: 10px;
+  height: 230px;
+  width: 360px;
+position: relative;
+/* margin-bottom: 24px; */
+}
+.img{
+  height: 230px;
+  width: 360px;
+}
+
+/*ה3 בוקסים למטה */
+.links .child{
+ position: absolute;
+ bottom: 0;
+ /*  הכתב בבוקסים למטה*/
+ left: 50px;
+ text-align: center;
+ font-family: ui-rounded;
+ text-shadow: 1px 1px 0 #7A7A7A;
+
+}
+
+H1{
+  box-shadow: 10px 5px 5px red;
+}
+
+
+@media (max-width: 768px){
+
+  body{
+    line-height:unset;
+  }
+  .slider{
+height: 300px;
+  }
+  .slider .carousel-item{
+    /*גודל של הקרוסלה */
+    min-height: 300px;
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+    font-family: fangsong;
+  }
+ .strip{
+  display: none;
+ }
+ .Smode{
+   display: flex;
+   min-height: 300px;
+   width: 100%;
+
+   background-size: cover;
+   background-position:center;
+ }
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+#box-center{
+  background: #b6b0b0;
+   background-size:cover;
+   background-position: center;
+   flex-direction: column-reverse;
+   text-align: center;
+   padding: 8px;
+ }
+.links{
+  height: 520px;
+  grid-template-columns: 50% 50% ;
+  background-image:url("images/building2.jpg");
+  background-size:cover;
+  background-position: center;
+display: grid;
+flex-wrap: wrap;
+padding-left: 5px;
+}
+.links .parent{
+padding-right: 4px;
+  /* margin-top: 10px; */
+  height: 120px;
+  width: 160px;
+position: relative;
+/* margin-bottom: 24px; */
+}
+.img{
+  padding-right: 25px;
+  height: 120px;
+  width: 160px;
+}
+img{
+  height: 300px;
+}
+
+}
+
+@media (max-width: 575px){
+  .links .container{
+   justify-content: center;
+ }
+ 
+
+}

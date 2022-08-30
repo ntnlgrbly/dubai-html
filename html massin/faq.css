@@ -1,0 +1,56 @@
+body{
+  background-image: url(images/3.jpg);
+  background-size: cover;
+  background-position:center;
+  font-weight: century gothic ;
+  background-attachment: fixed;
+}
+.fa-welcome{
+  color: rgb(165, 42, 42);
+  filter: grayscale(20%);
+  font-family: fangsong;
+  }
+main .container{
+  /* האורך של הבוקס */
+  max-width: 800px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+main h1,
+.form h1{
+font-size: 4em;
+color: #f02e2e9c;
+text-shadow: 2px 3px 0 #a39c9ccb;
+margin-bottom: 20px;
+
+}
+
+footer{
+  height: 65px;
+}
+
+
+p{
+  font: italic 1.2em "Fira Sans", serif;
+}
+
+.accordion{
+  border-radius: 18px;
+}
+.accordion-item .accordion-header button{
+background: rgba(0, 0, 0, 0.6) !important;
+color: rgba(255, 255, 255, 0.726) !important;
+}
+
+.accordion-item .accordion-header .accordion-button:not(.collapsed) {
+background: rgba(0, 0, 0, 0.8) !important;
+color:rgba(255, 255, 255, 0.7) !important;
+}
+
+.accordion-item .accordion-collapse {
+background: linear-gradient(90deg, rgba(250, 0, 0, 0.7) 0%, rgba(46, 36, 42, 0.7)100%);
+color:rgba(0, 0, 0, 0.8);
+}
+
+

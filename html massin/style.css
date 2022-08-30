@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+header{
+  /* padding-bottom: 15px; */
+  display: flex;
+  height: 67px;
+  background: #f16161;
+}
+nav{
+  display: flex;
+}
+p{
+  text-align: center;
+}
+a.nav-link{
+  padding-bottom: 5px;
+
+  padding-left: 20px;
+  margin-left: 12px;
+  filter: grayscale(20%);
+color: #c682be;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* background: #ff9f9f; */
+}
+a.nav-link:hover{
+color: #664c63;
+filter: grayscale(0%);
+font-family: 'Times New Roman', Times, serif;
+/* transition:100ms; */
+/* background: #ff9f9f; */
+}
+
+a:link{
+  /* background: #c382c6; */
+  filter: grayscale(50%);
+  text-decoration: none;
+  color: #8a82c6;
+  margin-left: 25px;
+}
+a:hover{
+  /* background: #c382c6; */
+  filter: grayscale(0%);
+  transition:100ms;
+  
+  color: #c382c6;
+  margin-left: 25px;
+}
+.welcome{
+  height: 12PX;
+  /* padding-bottom: 5px; */
+  background: #664c63;
+  align-items: center;
+  margin-bottom: 8px;
+  padding-bottom: 20px;
+}
+.welcome h2{
+padding-bottom: 2PX;
+}
+header .burger {
+  display: none;
+}
+.links a{
+  filter: grayscale(50%);
+  }/* המעבר על ה3 בוקסים למטה*/
+  .links a:hover{
+   filter: grayscale(0%);
+   transition:100ms;
+   -webkit-box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0,0,0,0); 
+   box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0,0,0,0);
+  
+  }
+
+
+footer .container {
+
+  margin-bottom: 8px;
+}
+
+footer a {
+  /* הבפנים של הלינקים*/
+  background: rgb(0, 0, 0);
+  color: white;
+  border-radius: 16px;
+  padding: 0px 6px;
+  border: 1px solid white;
+}
+
+footer{margin-top: 3PX;
+  padding-top:8px ;
+  background: #f86571;
+  height: 65px;
+
+}
+
+
+@media (max-width: 768px) {
+  header .burger {
+    display: block;
+    text-align: center;
+  }
+  header nav {
+    z-index: 9999;
+    display: none;
+    top: 60px;
+  right: 0;
+    position:absolute;
+    width: 70%;
+    background: rgb(231, 38, 38);
+  }
+header nav a{
+  display: block;
+  padding: 16px;
+  border-bottom: 1px solid gray;
+}
+header nav a:hover{
+  background: silver;
+  display: block;
+  padding: 16px;
+  border-bottom: 1px solid gray;
+}
+
+
+  /* header .logo{
+      padding-left:40px ;
+     }*/
+}
+
+@media (max-width: 426px) {
+
+
+
+
+}

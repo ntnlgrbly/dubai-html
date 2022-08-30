@@ -1,0 +1,112 @@
+body {
+  
+  /* height: 55px !important; */
+  background-image: url(/images/back\ ground\ dubai.jpg);
+  background-size: cover;
+  background-position:center;
+  background-attachment: fixed;
+  font-weight: Century Gothic;
+} 
+.about-welcome{
+color: rgb(165, 42, 42);
+filter: grayscale(20%);
+font-family: fangsong;
+}
+main{
+  height:auto;
+} 
+.container{
+  /* height: 330px; */
+  margin: 0 auto;
+}
+.strip .container{
+height:auto;
+width: 50%;
+background: rgba(0, 0, 0, 0.7);
+margin-top: 20px;
+padding: 0 20px 30px 20px;
+border-radius: 32px;
+/* המיקום של התמונה בבוקס*/
+position: relative;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.strip .img{
+height: 70px;
+width: 70px;
+background-image: url(/images/logo_dubai.png);
+background-size: cover;
+background-position:top ;
+border-radius: 50px;
+position: absolute;
+top: 0%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.strip .container h1{
+  color: white;
+  margin-top: 35px;
+  font-family: 'Stick No Bills', sans-serif;
+  padding-top: 48px;
+}
+.strip .container p{
+color: rgb(245, 245, 245);
+margin-top: 60px;
+font-size: large;
+font-family: Georgia, serif;
+
+}
+
+.strip .container .btn_more:hover{
+background: rgba(243, 6, 6, 0.596);
+color: rgb(0, 0, 0);
+/* הפתיחה של הבוקס*/
+}
+.text.show-more .moreText{
+display: inline;
+
+}
+
+.text.show-more .dots{
+display: none;
+}
+.space{
+margin-top:180px;
+}
+footer a{
+margin-top: 20px;
+}
+
+.text{
+  font-size: 24px;
+}
+.moreText{
+  display: none;
+}
+.text.show-more .moreText{
+  display: inline;
+}
+
+.dots{
+  display: inline-block;
+}
+.text.show-more .dots{
+  display: none;
+}
+@media (max-width: 767px){
+.strip .container{
+  width: 70%;
+  margin-top: 120px;
+}
+
+  
+}
+@media (max-width: 526px){
+.strip .container{
+  width: 90%;
+  margin-top: 120px;
+}
+
+  
+}
